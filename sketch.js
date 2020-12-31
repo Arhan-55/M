@@ -237,7 +237,7 @@ function spawnobstacles(){
 
 function enemy(){
   if(frameCount % 260 === 0){
-    robot = createSprite(800,370);
+    robot = createSprite(850,370);
     robot.velocityX = -5;
 
     invisibleblock = createSprite(660,370,150,50);
@@ -260,7 +260,7 @@ function enemy(){
     default:
       break;
   }
-  robot.lifetime = 160;
+  robot.lifetime = 170;
   enemyGroup.add(robot);
   invisibleblockGroup.add(invisibleblock);
   }
