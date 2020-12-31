@@ -209,7 +209,7 @@ function spawnclouds(){
 }
 
 function spawnobstacles(){
-  if(frameCount % 140 === 0){
+  if(frameCount % 180 === 0){
     obstacle = createSprite(700,390);
     obstacle.scale = 0.7;
     obstacle.velocityX = -5;
@@ -236,7 +236,7 @@ function spawnobstacles(){
 }
 
 function enemy(){
-  if(frameCount % 280 === 0){
+  if(frameCount % 260 === 0){
     robot = createSprite(800,370);
     robot.velocityX = -5;
 
